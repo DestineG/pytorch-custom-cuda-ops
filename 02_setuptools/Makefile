@@ -4,7 +4,7 @@
 
 # 安装并编译算子
 install:
-	uv pip install -e . --no-build-isolation
+	uv pip install . --no-build-isolation
 
 # 清理临时文件
 clean:
